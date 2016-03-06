@@ -7,6 +7,7 @@
 //
 
 #import "FirstViewController.h"
+#import "SwiftOC-Swift.h"
 
 @interface FirstViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    SFSwiftClassName* sftest = [[SFSwiftClassName alloc] init];
+    [sftest printName];
 }
 
 - (void)didReceiveMemoryWarning {
